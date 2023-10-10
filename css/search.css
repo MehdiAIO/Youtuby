@@ -1,0 +1,51 @@
+#search-filters-icon{
+    cursor: pointer;
+}
+#search-filter-icon:hover .fa-filter{
+    color: #bf40bf;
+}
+
+.container .filter-column{
+    display: none;
+}
+
+input:checked+span{
+    color: #bf40bf;
+}
+
+time{
+    bottom: 7px;
+    left: 27px;
+}
+
+.card-body{
+    min-width: 0;
+}
+
+.card .card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+@media (max-width:767px){
+    .card .card-top-image{
+        width: 100%;
+    }
+    time{
+        bottom: 7px;
+        left: 4px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .card .card-body a .channel-img{
+        display: block !important;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .card .card-body a .channel-img>img{
+        margin-right: -8px !important;
+    }
+}
